@@ -5,52 +5,78 @@ body {
   text-align: center;
 }
 .Contenedor {
-    padding-top: 30px;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    margin: auto;
+  padding-top: 30px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: auto;
   border: 4px solid white;
 }
 
 .Contenedor h1,
 p,
-h2,h3 {
+h2,
+h3 {
   color: chartreuse;
 }
-.Titulo{
-    border: 2px solid white; 
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    width: 50%;
+.Titulo {
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
-.Titulo a{
-    text-decoration: none;
-}
-.Titulo:hover{
-    background-color:darkblue;
-    transition:2s;
-}
-.Cabecera{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid white;
-}
-.botonera{
-    width: 30%;
-    justify-content: space-around;
-    display: flex;
-    border: solid white;
-}
-.botonera a{
+.Titulo a {
   text-decoration: none;
 }
-.links{
+.Titulo:hover {
+  background-color: darkblue;
+  transition: 2s;
+}
+.Cabecera {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+}
+.botonera {
+  width: 30%;
+  justify-content: space-around;
+  display: flex;
+  border: solid white;
+}
+.botonera a {
+  text-decoration: none;
+}
+.links {
   width: 100%;
   justify-content: space-around;
   display: flex;
 }
-.links h3:hover{
+.links h3:hover {
   color: white;
+}
+.boton-comandos-git {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  border: solid 2px white;
+  width: 70%;
+}
+.boton-comandos-git a {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  text-decoration: none;
+  color: chartreuse;
+}
+
+.boton-comandos-git a:hover {
+  color: black;
+}
+.boton-comandos-git:hover {
+  background-color: chartreuse;
 }
