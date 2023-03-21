@@ -1,10 +1,11 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: black;
   padding-top: 3rem;
   text-align: center;
 }
 .Contenedor {
-    padding-top: 20px;
+    padding-top: 30px;
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -14,7 +15,7 @@ body {
 
 .Contenedor h1,
 p,
-h2 {
+h2,h3 {
   color: chartreuse;
 }
 .Titulo{
@@ -30,4 +31,26 @@ h2 {
 .Titulo:hover{
     background-color:darkblue;
     transition:2s;
+}
+.Cabecera{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+.botonera{
+    width: 30%;
+    justify-content: space-around;
+    display: flex;
+    border: solid white;
+}
+.botonera a{
+  text-decoration: none;
+}
+.links{
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+.links h3:hover{
+  color: white;
 }
