@@ -99,3 +99,8 @@ let num2 = 6;
 let res = num1 < num2
 
 console.log(res)
+
+
+var seven  = 5 + 7 ;
+
+alert(seven)
