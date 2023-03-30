@@ -16,3 +16,7 @@ main h2{
     display: flex;
     justify-content: center;
 }
+.text{
+    text-align: center;
+    color:steelblue ;
+}
