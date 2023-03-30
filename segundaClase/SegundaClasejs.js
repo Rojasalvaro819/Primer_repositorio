@@ -80,8 +80,8 @@ console.log("");
 console.log("ejercicio 11");
 console.log("");
 
-const ingresar = prompt("Ingrese su nombre");
-console.log("Hola wachin " + ingresar.toLowerCase().trim());
+const ingresar = (prompt("Ingrese su nombre")).toLowerCase();
+console.log("Hola wachin " + ingresar.trim());
 // Ejercicio 12
 console.log("");
 console.log("ejercicio 12");
@@ -113,6 +113,26 @@ if (cena < 10000) {
     "Su cena paso los $10.000 pesos Tendremos que cobrarle un impuesto"
   );
 }
+nota = prompt("Ingrese su nota");
+if (nota>=6 && nota<=10){
+  console.log("Usted esta aprobado")
+} else {
+  console.log ("Usted esta desaprobado")
+} if(nota>10){
+  console.log("Esta nota es falsa")
+}
 
-let nota = () => "holamundis";
+const restar = () => {
+  let resultado = 5 - 4;
+  console.log(resultado)
+}
 
+restar();
+
+// funcion con parametros
+
+const parametros = (parametro1,parametro2,nombre) => {
+  let resultado = parametro1-parametro2;
+  console.log(resultado,nombre)
+}
+parametros (10,5 ,"resta")
