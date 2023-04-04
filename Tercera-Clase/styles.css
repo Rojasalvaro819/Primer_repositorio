@@ -1,0 +1,9 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    background-color: #121f3d;
+}
+.titulo{
+    color: #98ca3f;
+}

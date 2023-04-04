@@ -158,7 +158,7 @@ console.log(palindromo("River"));
 
 // Crear un programa que pida al usuario tres números y luego muestre cuál es el mayor de los tres.
 
-// Crear un programa que pida al usuario una letra y luego muestre si es una letra mayúscula o minúscula.
+// Crear un programa que pida al suario una letra y luego muestre si es una letra mayúscula o minúsculau.
 
 // Crear un programa que pida al usuario un número y luego muestre si es un número perfecto o no. Un número perfecto es aquel que es igual a la suma de sus divisores propios.
 
