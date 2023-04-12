@@ -400,4 +400,6 @@ for (let i = 0; i < numerosArrayy.length; i++) {
 
 console.log(`La cantidad de números pares es: ${contadorPares}`);
 
-//probando
+
+
+
