@@ -328,3 +328,4 @@ console.log(numbersSort); // [1, 2, 3, 4, 5]
 
 // Dado un array de números y un número X, escribir una función que retorne un nuevo array con todos los números del array original que sean mayores que X. Además, cortar el array resultante para que tenga solamente los primeros 3 números.
 
+
