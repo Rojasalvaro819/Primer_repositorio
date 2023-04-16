@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.logo {
+  align-items: center;
+  display: flex;
+}
+.logo img {
+  height: 100px;
+}
+.botones {
+  margin-right: 1rem;
+  display: flex;
+}
+.nombre-empresa {
+  color: white;
+}
+.botones a {
+  color: white;
+}
+
+@media (max-width: 760px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
+  }
+}
+.articulo2{
+    background-color:slategrey;
+}
+
+.habitacion{
+    /* margin: px; */
+    display: flex;
+    justify-content:space-between;
+
+}
+.placard1{
+    width: 20rem;
+    height: 35rem;
+}
+.texto2{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+@media(max-width:992px){
+    .habitacion{
+        flex-direction: column;
+        align-items: center;
+    }
+    .placard1{
+        width: 90%;
+        padding: 1rem;
+    }
+}
+.subtitulo{
+  text-decoration: none;
+  color: black;
+}
